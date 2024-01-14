@@ -56,7 +56,7 @@ citiesElement.innerHTML = `<div class="city">
             <h2>${cityName}</h2>
            <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
           </div> <div class="time">${cityTime.format("H:mm ")}<small>${cityTime.format("A")}</small></div>
-        </div><div><div><a href="/">Go back</a><div>`;
+        </div><div><div><a href="/"><button>Go back</a><div>`;
 
 }
 
